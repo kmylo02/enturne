@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Enturne S.A.S - Mail</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+<div>
+<div style="font-size: 26px;font-weight: 700;letter-spacing: -0.02em;line-height: 32px;color: #41637e;font-family: sans-serif;text-align: center" align="center" id="emb-email-header"></div>
+<p style="Margin-top: 0;color: #565656;font-family: Georgia,serif;font-size: 16px;line-height: 25px;Margin-bottom: 25px">Cordial saludo,</p> 
+<p style="Margin-top: 0;color: #565656;font-family: Georgia,serif;font-size: 16px;line-height: 25px;Margin-bottom: 25px"><br>Estimado Usuario: <?php echo $nombre?><br>Su documento: <?php echo $doc?><br>Se vence: <?php echo $fecha?><br><br><br>ENTURNE EN LINEA le informa que el documento esta próximo a vencerse, si ya lo renovo, favor ingresar con su usuario y contraseña a <a href="https://app.logiservi.com/">https://app.logiservi.com/</a> y subirlo ó hacernoslo llegar, para que podamos actualizarle su hoja de vida.<br><br>Si desea que le colaboremos con la adquisicion de su documento vencido, favor contactarnos.<br><br>Gracias, por su valiosa colaboración prestada.<br><br>
+<img style="border: 0;-ms-interpolation-mode: bicubic;display: block;Margin-left: auto;Margin-right: auto;max-width: 559px" src="<?php echo base_url('assets/img/firmaemail.png')?>" alt="Firma" width="559" height="165">
+</p>
+</div>
+</body>
+</html>

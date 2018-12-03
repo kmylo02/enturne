@@ -1,0 +1,3 @@
+Primero se debe instalar el servidor virtual
+El usuario del administrador es 1022975061 y la clave es slayer
+El usuario del vendedor es 94081503723 y la clave es dope

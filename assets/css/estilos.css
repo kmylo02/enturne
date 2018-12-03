@@ -1,0 +1,33 @@
+.bar {
+    height: 18px;
+    background: green;
+}
+th {
+  text-align: center;
+}
+td {
+  text-align: center;
+}
+input[type=number]::-webkit-outer-spin-button,
+
+input[type=number]::-webkit-inner-spin-button {
+
+    -webkit-appearance: none;
+
+    margin: 0;
+
+}
+input[type=number] {
+
+    -moz-appearance:textfield;
+
+}
+
+.botones{
+    background: transparent;
+    background-repeat:no-repeat;
+    height:70px;
+    width:70px;
+    background-position:center;
+    border-radius: 10px;
+}
